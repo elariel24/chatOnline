@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavParams, ModalController } from '@ionic/angular';
 
 @Component({
   selector: 'app-chat',
@@ -6,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./chat.component.scss'],
 })
 export class ChatComponent implements OnInit {
+  public name: string;
 
-  constructor() { }
+  constructor(private navparams: NavParams, private modal: ModalController) { }
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.name = this.navparams.get('name');
+  }
 
+  closeChat() {
+    this.modal.dismiss();
+  }
 }

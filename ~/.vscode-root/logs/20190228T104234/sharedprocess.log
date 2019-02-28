@@ -1,0 +1,40 @@
+[2019-02-28 10:42:38.964] [sharedprocess] [info] main {"machineId":"a0d3055ebe983190c3964410bf95b79f97f8f2065d85cdeaf7669cbfff8033da"}
+[2019-02-28 10:42:39.006] [sharedprocess] [info] Scanned user extensions: 5
+[2019-02-28 10:42:39.040] [sharedprocess] [info] Scanned user extensions: 5
+[2019-02-28 10:42:39.044] [sharedprocess] [info] Scanned user extensions: 5
+[2019-02-28 10:42:39.081] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-28 10:42:39.084] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-28 10:42:39.087] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-28 10:42:40.225] [sharedprocess] [info] Scanned user extensions: 5
+[2019-02-28 10:42:41.677] [sharedprocess] [info] Installing extension: debugger-for-chrome
+[2019-02-28 10:42:41.686] [sharedprocess] [info] Scanned user extensions: 5
+[2019-02-28 10:42:44.334] [sharedprocess] [info] Downloaded extension: debugger-for-chrome /tmp/7c7a72ce-3649-46d0-82d5-5370ff91b338
+[2019-02-28 10:42:44.940] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.msjsdiag.debugger-for-chrome-4.11.3: msjsdiag.debugger-for-chrome-4.11.3
+[2019-02-28 10:42:44.940] [sharedprocess] [info] Renamed to /root/.vscode/extensions/msjsdiag.debugger-for-chrome-4.11.3
+[2019-02-28 10:42:44.941] [sharedprocess] [info] Installation completed. msjsdiag.debugger-for-chrome-4.11.3
+[2019-02-28 10:42:45.025] [sharedprocess] [info] Extensions installed successfully: msjsdiag.debugger-for-chrome
+[2019-02-28 10:43:06.093] [sharedprocess] [info] Scanned user extensions: 5
+[2019-02-28 10:43:06.103] [sharedprocess] [info] Scanned user extensions: 5
+[2019-02-28 10:43:06.243] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-28 10:43:06.258] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-28 10:43:06.383] [sharedprocess] [info] Scanned user extensions: 5
+[2019-02-28 10:43:18.968] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-02-28 10:48:07.173] [sharedprocess] [info] Scanned user extensions: 5
+[2019-02-28 10:53:07.328] [sharedprocess] [info] Scanned user extensions: 5
+[2019-02-28 10:58:07.455] [sharedprocess] [info] Scanned user extensions: 5
+[2019-02-28 11:03:07.697] [sharedprocess] [info] Scanned user extensions: 5
+[2019-02-28 11:08:07.715] [sharedprocess] [info] Scanned user extensions: 5
+[2019-02-28 11:13:07.733] [sharedprocess] [info] Scanned user extensions: 5
+[2019-02-28 11:18:07.821] [sharedprocess] [info] Scanned user extensions: 5
+[2019-02-28 11:23:08.104] [sharedprocess] [info] Scanned user extensions: 5
+[2019-02-28 11:28:08.123] [sharedprocess] [info] Scanned user extensions: 5
+[2019-02-28 11:33:08.205] [sharedprocess] [info] Scanned user extensions: 5
+[2019-02-28 11:38:08.221] [sharedprocess] [info] Scanned user extensions: 5
+[2019-02-28 11:43:09.258] [sharedprocess] [info] Scanned user extensions: 5
+[2019-02-28 11:48:09.323] [sharedprocess] [info] Scanned user extensions: 5
+[2019-02-28 11:53:09.392] [sharedprocess] [info] Scanned user extensions: 5
+[2019-02-28 11:58:09.406] [sharedprocess] [info] Scanned user extensions: 5
+[2019-02-28 12:03:09.427] [sharedprocess] [info] Scanned user extensions: 5
+[2019-02-28 12:08:09.533] [sharedprocess] [info] Scanned user extensions: 5
+[2019-02-28 12:13:09.605] [sharedprocess] [info] Scanned user extensions: 5
+[2019-02-28 12:18:18.657] [sharedprocess] [info] Scanned user extensions: 5

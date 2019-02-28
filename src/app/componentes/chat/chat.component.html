@@ -1,3 +1,23 @@
-<p>
- it's works!
-</p>
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-title >{{name}}</ion-title>
+        <ion-buttons slot="start" fill="clear">
+            <ion-button (click)="closeChat()">
+                <ion-icon name="arrow-round-back"></ion-icon>
+            </ion-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <h3>hola soy el contenido</h3>
+</ion-content>
+
+<ion-footer padding>
+    <ion-item>
+        <ion-textarea></ion-textarea>
+        <ion-button (click)="onClick()">
+            <ion-icon slot="icon-only" name="send"></ion-icon>  
+        </ion-button>
+    </ion-item>
+</ion-footer>

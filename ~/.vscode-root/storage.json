@@ -1,0 +1,12 @@
+{
+    "telemetry.machineId": "a0d3055ebe983190c3964410bf95b79f97f8f2065d85cdeaf7669cbfff8033da",
+    "theme": "vs-dark",
+    "themeBackground": "#1e1e1e",
+    "pickerWorkingDir": "/home/pi",
+    "openedPathsList": {
+        "workspaces2": [
+            "file:///home/pi/chatOnline"
+        ],
+        "files2": []
+    }
+}

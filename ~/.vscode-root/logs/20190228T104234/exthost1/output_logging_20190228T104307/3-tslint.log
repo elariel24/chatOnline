@@ -1,0 +1,5 @@
+[Info  - 10:57:38 a. m.] Linter is running.
+Warning: The 'deprecation' rule requires type information.
+Warning: The 'no-use-before-declare' rule requires type information.
+[Warn  - 10:57:59 a. m.] Warning: The 'deprecation' rule requires type information.
+[Warn  - 10:57:59 a. m.] Warning: The 'no-use-before-declare' rule requires type information.
