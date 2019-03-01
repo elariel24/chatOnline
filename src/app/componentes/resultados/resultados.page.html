@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title text-center>
+      Resultados actual
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-list>
+    <ion-item *ngFor="let loteries of LOTERIAS" (click)="openChat(chat)"> 
+      <ion-avatar slot="start">
+        <ion-img [src]="loteries.img"></ion-img>
+      </ion-avatar>
+      <ion-label>
+        <h2> <b>{{loteries.nameLotery}}</b></h2>
+        <p>{{loteries.dateLotery}}</p> 
+         <ion-row>
+           <ion-col size="3" class="premios" text-center>
+              {{loteries.firstPrize}}
+           </ion-col>
+           <ion-col size="3" class="premios" text-center>
+            {{loteries.secondPrize}}
+         </ion-col>
+         <ion-col size="3" class="premios" text-center>
+          {{loteries.thirdPrize}}
+       </ion-col>
+         </ion-row> 
+
+      </ion-label>
+    </ion-item>
+    
+  </ion-list>
+
+
+ <ion-button (click)="onLogOut()">
+  Desconectarse
+ </ion-button>
+</ion-content>
