@@ -15,8 +15,11 @@
       </ion-avatar>
       <ion-label>
         <h2> <b>{{loteries.nameLotery}}</b></h2>
-        <p>{{loteries.dateLotery}}</p> 
-         <ion-row>
+        <ion-badge color="secondary"> 
+          {{loteries.dateLotery}} 
+        </ion-badge>
+        
+         <ion-row align-items: center>
            <ion-col size="3" class="premios" text-center>
               {{loteries.firstPrize}}
            </ion-col>
@@ -37,4 +40,5 @@
  <ion-button (click)="onLogOut()">
   Desconectarse
  </ion-button>
+
 </ion-content>

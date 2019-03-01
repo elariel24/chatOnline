@@ -1,13 +1,9 @@
 .premios{
-    width:25px;
-    height:25px;
-    border-right: 50px solid #d9534f;
-    border-top: 20px solid #428bca;
-    border-left: 20px solid #f0ad4e;
-    border-bottom: 20px solid #5cb85c;
-    -moz-border-radius: 100%;
-    -webkit-border-radius: 100%;
-    border-radius: 100%;
-    
-    
+    width: 25px;
+    height: 25px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #5cb85c;
+    margin: auto;
 }
