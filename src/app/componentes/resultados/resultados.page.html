@@ -4,45 +4,45 @@
       Resultados
     </ion-title>
     <ion-buttons slot="start">
-        <ion-menu-button autoHide="false"></ion-menu-button>
-      </ion-buttons>
+      <ion-menu-button autoHide="false"></ion-menu-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
 
   <ion-list>
-    <ion-item *ngFor="let loteries of LOTERIAS" (click)="openChat(chat)"> 
+    <ion-item *ngFor="let loteries of LOTERIAS" (click)="openChat(chat)">
       <ion-avatar slot="start">
         <ion-img [src]="loteries.img"></ion-img>
       </ion-avatar>
       <ion-label>
         <h2> <b>{{loteries.nameLotery}}</b></h2>
-        <ion-badge color="secondary" mode="ios"> 
-          {{loteries.dateLotery}}  
+        <ion-badge color="secondary" mode="ios">
+          {{loteries.dateLotery}}
         </ion-badge>
-        
-         <ion-row align-items: center>
-           <ion-col size="3" class="premios" text-center>
-              {{loteries.firstPrize}}
-           </ion-col>
-           <ion-col size="3" class="premios" text-center>
+
+        <ion-row align-items: center>
+          <ion-col size="3" class="premios" text-center>
+            {{loteries.firstPrize}}
+          </ion-col>
+          <ion-col size="3" class="premios" text-center>
             {{loteries.secondPrize}}
-         </ion-col>
-         <ion-col size="3" class="premios" text-center>
-          {{loteries.thirdPrize}}
-       </ion-col>
-         </ion-row> 
+          </ion-col>
+          <ion-col size="3" class="premios" text-center>
+            {{loteries.thirdPrize}}
+          </ion-col>
+        </ion-row>
 
       </ion-label>
     </ion-item>
-    
+
   </ion-list>
-  
 
 
- <ion-button (click)="onLogOut()">
-  Desconectarse
- </ion-button>
+
+  <ion-button (click)="onLogOut()">
+    Desconectarse
+  </ion-button>
 
 </ion-content>
