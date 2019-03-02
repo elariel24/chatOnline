@@ -8,6 +8,8 @@ const routes: Routes = [
   { path: 'home', loadChildren: './home/home.module#HomePageModule', canActivate: [AuthGuard] },
   { path: 'login', loadChildren: './componentes/login/login.module#LoginPageModule', canActivate: [NologinGuard] },
   { path: 'resultados', loadChildren: './componentes/resultados/resultados.module#ResultadosPageModule' },
+  { path: 'videos', loadChildren: './componentes/videos/videos.module#VideosPageModule' },
+  { path: 'estimaciones', loadChildren: './componentes/estimaciones/estimaciones.module#EstimacionesPageModule' },
 ];
 
 @NgModule({

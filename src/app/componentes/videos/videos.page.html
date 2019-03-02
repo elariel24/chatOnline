@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>videos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content overflow-scroll="true" padding>
+  <p>Click button to open YouTube Video Player</p><br>
+    <ion-button (click)="">Open Video</ion-button>
+    <video src=""></video>
+
+    <iframe [src]="this.sanitizer.bypassSecurityTrustResourceUrl(i.url)" 
+      width="560" height="315" frameborder="0" align="middle" allowfullscreen></iframe>
+  </ion-content>
