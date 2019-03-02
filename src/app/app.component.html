@@ -1,3 +1,25 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+    <ion-menu side="start" menuId="custom" class="my-custom-menu">
+        <ion-header>
+          <ion-toolbar color="tertiary">
+            <ion-title>CessApp Menu</ion-title>
+            <ion-icon name="exit" slot="end"></ion-icon>
+          </ion-toolbar>
+        </ion-header>
+        <ion-content>
+          <ion-list>
+            <ion-item>Menu Item</ion-item>
+            <ion-item>Menu Item</ion-item>
+            <ion-item>Menu Item</ion-item>
+            <ion-item>Menu Item</ion-item>
+            <ion-item>Menu Item</ion-item>
+          </ion-list>
+        </ion-content>
+        <ion-footer color="medium-shade">
+            <p>todos los derechos reservados</p>
+        </ion-footer>
+      </ion-menu>
+      
+           
+  <ion-router-outlet id="content1" main></ion-router-outlet>
 </ion-app>
