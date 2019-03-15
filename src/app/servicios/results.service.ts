@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/firestore';
 import { map } from 'rxjs/operators';
+import { Timestamp } from 'rxjs';
 
 export interface lotery {
   id: string;

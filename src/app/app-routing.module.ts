@@ -10,6 +10,7 @@ const routes: Routes = [
   { path: 'resultados', loadChildren: './componentes/resultados/resultados.module#ResultadosPageModule' },
   { path: 'videos', loadChildren: './componentes/videos/videos.module#VideosPageModule' },
   { path: 'estimaciones', loadChildren: './componentes/estimaciones/estimaciones.module#EstimacionesPageModule' },
+  { path: 'tabs', loadChildren: './componentes/tabs/tabs.module#TabsPageModule' },
 ];
 
 @NgModule({
